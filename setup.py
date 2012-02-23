@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 from firedj import __version__
+
+long_description = open('README.md').read()
  
 setup(name='firedj',
     version=__version__,
     description="Django template support for Fire.app",
+    long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
         "Environment :: Web Environment",
