@@ -17,7 +17,7 @@ def main():
     try:
         filename = sys.argv[1]
     except IndexError:
-        sys.exit('Please provide template fil path as argument, usage:\n\n\t$ firedj index.html\n')
+        sys.exit('Please provide template file path as argument, usage:\n\n\t$ firedj index.html\n')
 
     curdir = os.path.dirname(os.path.abspath(filename))
 
