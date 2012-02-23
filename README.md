@@ -1,9 +1,7 @@
-FireDj
-===========
+What is FireDj
+================
 
-`firedj` is a command line tool
-
-The original purpose of `firedj` is used to generate Django tempalte for [FireApp](https://github.com/handlino/fireapp).
+`firedj` is used to generate Django tempalte for [FireApp](https://github.com/handlino/fireapp).
 
 
 Install
